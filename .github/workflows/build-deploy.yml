@@ -6,6 +6,7 @@ on:
     paths:
       - 'src/**'  # Only trigger when files in src directory change
       - '.github/workflows/build-deploy.yml'
+  workflow_dispatch:
 permissions:
   contents: write
 
