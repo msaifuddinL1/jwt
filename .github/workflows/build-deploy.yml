@@ -5,7 +5,8 @@ on:
     branches: [ main ]
     paths:
       - 'src/**'  # Only trigger when files in src directory change
-permission:
+      - '.github/workflows/build-deploy.yml'
+permissions:
   contents: write
 
 jobs:
