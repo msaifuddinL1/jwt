@@ -1,10 +1,7 @@
-# Vite Templlate
+# JWT Decode
 
-This is my vite template, so I dont have to do the same setup again and again.
+Simple tool to quickly decode JWT token.
 
-## Includes
-- Lucide Icons
-- Tailwind CSS
-- Zustand
+## Startup
 
-Uses bun to build the project.
+`bun run dev`
