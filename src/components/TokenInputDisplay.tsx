@@ -9,7 +9,7 @@ export default function TokenInputDisplay() {
   };
 
   const [statusMessage, setStatusMessage] = useState<statusMessageType>({
-    message: "JWT must not be empty",
+    message: "JWT must not be empty.",
     error: true,
   });
 
