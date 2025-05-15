@@ -18,7 +18,7 @@ export default function TokenInputDisplay() {
   const [headerData, setHeaderData] =
     useState<jose.ProtectedHeaderParameters | null>(null);
   const [payloadData, setPayloadData] = useState<jose.JWTPayload | null>(null);
-  
+
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   // Function to validate JWT token
@@ -183,7 +183,7 @@ export default function TokenInputDisplay() {
   };
 
   return (
-    <div className="container grid h-fit max-h-2/3 grid-cols-2 gap-8 py-5">
+    <div className="container grid grid-cols-2 gap-8">
       <div className="bg-crust flex flex-col gap-4 rounded-2xl p-4" id="input">
         <div className="flex space-x-2 self-end">
           <button
