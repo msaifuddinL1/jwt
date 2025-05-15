@@ -5,6 +5,8 @@ on:
     branches: [ main ]
     paths:
       - 'src/**'  # Only trigger when files in src directory change
+permission:
+  contents: write
 
 jobs:
   build-and-deploy:
@@ -28,6 +30,4 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist  # Assuming your build output is in the dist directory
-          branch: gh-pages
-          clean: true  # Automatically remove deleted files from the deploy branch
+          folder: dist 

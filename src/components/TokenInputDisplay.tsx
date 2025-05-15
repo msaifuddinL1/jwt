@@ -14,10 +14,11 @@ export default function TokenInputDisplay() {
   });
 
   const [inputValue, setInputValue] = useState<string>("");
-  
+
   const [headerData, setHeaderData] =
     useState<jose.ProtectedHeaderParameters | null>(null);
   const [payloadData, setPayloadData] = useState<jose.JWTPayload | null>(null);
+  
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   // Function to validate JWT token
