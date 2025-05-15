@@ -23,11 +23,20 @@
   --overlay1: #8c8fa1;
   --overlay0: #9ca0b0;
   --surface2: #acb0be;
-  --surface1: #bcc0cc;
-  --surface0: #ccd0da;
+  /* --surface1: #bcc0cc; */
+  /* --surface0: #ccd0da; */
+  --surface0: #e6e9ef;
+  --surface1: #dce0e8;
+
+
   --base: #eff1f5;
-  --mantle: #e6e9ef;
-  --crust: #dce0e8;
+  /* --mantle: #e6e9ef; */
+  /* --crust: #dce0e8; */
+
+  --mantle: #ccd0da;
+  --crust: #bcc0cc;
+
+
 }
 
 @theme inline {
